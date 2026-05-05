@@ -25,6 +25,7 @@ public class GitExemple {
 Scanner myKB = new Scanner (System.in);
 
 int num;
-num = myKB.nextLine();    }
+num = myKB.nextInt();    
+    }
     
 }
