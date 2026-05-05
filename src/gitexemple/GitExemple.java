@@ -10,6 +10,8 @@
  */
 package gitexemple;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ijuli
@@ -20,7 +22,9 @@ public class GitExemple {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+Scanner myKB = new Scanner (System.in);
+
+int num;
+num = myKB.nextLine();    }
     
 }
